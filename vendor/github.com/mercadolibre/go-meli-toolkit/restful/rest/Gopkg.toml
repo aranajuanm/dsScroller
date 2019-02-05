@@ -1,0 +1,31 @@
+
+# Gopkg.toml example
+#
+# Refer to https://github.com/golang/dep/blob/master/docs/Gopkg.toml.md
+# for detailed Gopkg.toml documentation.
+#
+# required = ["github.com/user/thing/cmd/thing"]
+# ignored = ["github.com/user/project/pkgX", "bitbucket.org/user/project/pkgA/pkgY"]
+#
+# [[constraint]]
+#   name = "github.com/user/project"
+#   version = "1.0.0"
+#
+# [[constraint]]
+#   name = "github.com/user/project2"
+#   branch = "dev"
+#   source = "github.com/myfork/project2"
+#
+# [[override]]
+#  name = "github.com/x/y"
+#  version = "2.4.0"
+
+ignored = ["github.com/mercadolibre/go-meli-toolkit"]
+
+[[constraint]]
+  name = "github.com/jimlawless/cfg"
+  revision = "136e0c264d31ea50a0c400640a2a2dac5b63d25c"
+
+[[constraint]]
+  name = "github.com/streamrail/concurrent-map"
+  revision = "8bf1e9bacbf65b10c81d0f4314cf2b1ebef728b5"
