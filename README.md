@@ -6,17 +6,17 @@
 
 ## Installation
 
-> git clone
+> git clone<br/>
 > dep ensure
 
 
 ## Code Samples
 
-> Edit main.go
-> Set your fury token (token variable)
-> Set your read proxy (url variable) (see https://meli.facebook.com/groups/537713793068124/permalink/1104330106406487/)
-> Set your query (body variable)
-> Set your output file (fileName variable)
+> Edit main.go<br/>
+> Set your fury token (token variable)<br/>
+> Set your read proxy (url variable) (see https://meli.facebook.com/groups/537713793068124/permalink/1104330106406487/)<br/>
+> Set your query (body variable)<br/>
+> Set your output file (fileName variable)<br/>
 > Update csv column generator (check your query projections!!!)
 
 Ej:
