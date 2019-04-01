@@ -56,7 +56,7 @@ func init() {
 	}
 
 	restDsClient = &rest.RequestBuilder{
-		Timeout:        3*time.Second,
+		Timeout:        100*time.Second,
 		ContentType:    rest.BYTES,
 		DisableTimeout: true,
 		EnableCache:    false,
